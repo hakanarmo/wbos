@@ -1,4 +1,4 @@
-const timestart = require("./thtime")
+const timestart = require("./trtime")
 const databoss = require("./databoss")
 
 module.exports = function() {
