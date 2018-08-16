@@ -65,7 +65,7 @@ exports.day6 =
         b00 : ['kutum',pic.kutum],
         b06 : ['nouver',pic.nouver],
         b10 : ['kutum',pic.kutum],
-        b14 : ['คาจาคาร์,nouver',pic.noukar],
+        b14 : ['karanda,nouver',pic.noukar],
         b19 : ['karanda',pic.karanda],
-        b23 : ['ไม่มี',pic.noboss] 
+        b23 : ['noboss',pic.noboss] 
     }
