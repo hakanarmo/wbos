@@ -1,5 +1,5 @@
 const Discord = require("discord.js")
-const thtime = require("./thtime")
+const trtime = require("./trtime")
 const chkboss = require("./chkboss")
 const botconfig = require("./botconfig")
 const pic = require("./pic")
@@ -17,11 +17,11 @@ setInterval(()=>alertz(), 60000);
 
 bot.on("message", (msg) => {
     if (msg.content === "บอส"){
-        h = thtime().h
+        h = trtime().h
         if (chkboss().t === "00:30" && h == 23){       //Check if the time is 00.30 and 23 hours tomorrow.
-                var dayz = thtime().dayz
+                var dayz = trtime().dayz
         }else {
-                var dayz = thtime().days            //If not, 00.30 use today's date.
+                var dayz = trtime().days            //If not, 00.30 use today's date.
             }
         sendEmbed()
    }
@@ -56,9 +56,9 @@ function status(){
 }
 
 function alertz() {
-    day = thtime().day
-    h = thtime().h
-    m = thtime().m
+    day = trtime().day
+    h = trtime().h
+    m = trtime().m
          
   if (day == 0 || day == 1 || day == 2 || day == 3 || day == 4 || day == 6) {
     if (h == 0 && m == 15) {
