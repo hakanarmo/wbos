@@ -1,0 +1,7 @@
+{
+    "tokenbotdiscord": "",
+    "channelName": "boss-notifications",
+    "version" : "V4.0.0",
+    "invitebot" : "```1. สร้างtext channelชื่อ    boss-notifications\n2. แอดบอท  https://discordapp.com/oauth2/authorize?client_id=458615004145385472&scope=bot&permissions\n-[ดูตารางเวลาบอส คำสั่ง  พิมพ์ ]>   บอส\n-[วิธีเชิญและใช้บอท คำสั่ง พิมพ์ ]>   info\n-[แจ้งเตือนก่อนบอสเกิด 15 นาที จะส่งข้อความ (@.everyone <ชื่อบอส> อีก 15 นาที)  ไปที่ห้อง boss-notifications]\n-[แสดงเวลาและชื่อบอสตัวต่อไป ที่statusของบอท(ที่รายชื่อด้านขวา)]```"
+   
+}
