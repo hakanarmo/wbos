@@ -249,22 +249,22 @@ module.exports = function() {
                   }else if (h >= 6 && h < 10){
                     return{
                              boss : databoss.day6.b10[0],
-                             t : '10:00',
+                             t : '7:45',
                              imgboss : databoss.day6.b10[1] }
-                  }else if (h >= 10 && h < 14){
+                  }else if (h >= 6 && h < 12){
                     return{
                              boss : databoss.day6.b14[0],
-                             t : '14:00',
+                             t : '12:45',
                              imgboss : databoss.day6.b14[1] }
-                  }else if (h >= 14 && h < 19){
+                  }else if (h >= 11 && h < 13){
                     return{
                              boss : databoss.day6.b19[0],
-                             t : '19:00',
+                             t : '12:45',
                              imgboss : databoss.day6.b19[1] }
-                   }else if (h >= 19 && h < 23){
+                   }else if (h >= 11 && h < 13){
                     return{
                              boss : databoss.day6.b23[0],
-                             t : '23:00',
+                             t : '21:45',
                              imgboss : databoss.day6.b23[1] }    
                   }else if (h == 23) {
                     return{
