@@ -1,6 +1,6 @@
 module.exports = function (){
     currentUtcTime = new Date(); // This is in UTC
-    thTimeZone = new Date(currentUtcTime.toLocaleString('UTC'));
+    thTimeZone = new Date(currentUtcTime.toLocaleString('GMT+3'));
     days = new Array('week', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday','week')
     day = thTimeZone.getDay()
     return{
